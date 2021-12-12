@@ -1,72 +1,194 @@
-*{
-    border: 2px solid red;
-  }
-
-.header, .upper-header, .lower-header, .upper-links{
-    display: flex; 
+* {
+  border: 2px solid red;
 }
 
-.header{
-    background-color: #1F2937;
-    flex-direction: column;
-    padding-left: 120px;
-    padding-right: 120px;
-
+.header,
+.upper-header,
+.lower-header,
+.upper-links {
+  display: flex;
 }
 
-.upper-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 8px;
+/* This section of code is destined to edit the upper header and its containers */
+
+.header {
+  background-color: #1f2937;
+  flex-direction: column;
 }
 
-.header-logo{
-    font-size: 24px;
-    color: #F9FAF8;
-  
+.upper-header {
+  display: flex;
+  justify-content: center;
+  gap: 410px;
 }
 
-.upper-links{
-    display: flex;
-    gap: 8px;
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
 }
 
-a{
-    text-decoration: none;
-    font-size: 18px;
-    color: #E5E7EB;
+.upper-links {
+  display: flex;
+  gap: 8px;
 }
 
-.lower-header{
-    display: flex;
-    justify-content: center;
-    gap:120px;
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
-.text-button{
-    display: flex;
-    flex-direction: column;
-    width: 600px;
+/* This section of code is destined to edit the lower header and its containers*/
+
+.lower-header {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.main-text{
-color: #F9FAF8;
-font-size: 48px;
-font-weight: 800;
+.text-button {
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  justify-content: start;
+  gap: 8px;
 }
 
-
-.secondary-text{
-    color: #E5E7EB;
-    font-size: 18px;
+.main-text {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
 }
 
-button{
-    background-color: #3882F6 ;
-    color: #F9FAF8;
+.secondary-text {
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
-.main-image{
-    height: auto;
-    width: 600px;
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 800;
+  border-radius: 8px;
+  width: 100px;
+}
+
+.main-image {
+  display: flex;
+  height: auto;
+  width: 520px;
+}
+
+/* This section of code is destined to edit the the middle content of the webpage*/
+
+.middle-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-header {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.images-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+.images-texted {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+.img-middle {
+  border: 4px solid #3882f6;
+  border-radius: 8px;
+  width: 150px;
+  height: 150px;
+}
+
+/* Grey section-testimony*/
+
+.middle-grey-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e7eb;
+}
+
+.text-middle-grey {
+  display: flex;
+  flex-direction: column;
+  width: 52%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.middle-grey-h1 {
+  color: #1f2937;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.middle-grey-h2 {
+  display: flex;
+  margin-left: auto;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/* This section of code is destined to edit botton part of middle content of the webpage*/
+.middle-content-botton {
+  display: flex;
+  background-color: #3882f6;
+  border-radius: 8px;
+  width: 58%;
+  align-items: center;
+  justify-content: center;
+  gap: 160px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.bluesquare-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.blue-text-h1 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.blue-text-h2 {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+/* This section of code is destined to edit the the footer content of the webpage*/
+
+.footer {
+  display: flex;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  align-items: center;
+  justify-content: center;
 }
